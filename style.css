@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.container .left-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4b41a;
+    height: 100vh;
+    width: 15vw;
+    padding: 2%;
+    color:#143d59;
+    
+    
+}
+.container .left-container .dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px ;
+}
+.container .left-container .dashboard i{
+    margin-right: 10px;
+}
+.container .left-container .customer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px ;
+
+}
+.container .left-container .customer i{
+    margin-right: 10px;
+}
+.container .left-container .invoice{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px ;
+}
+.container .left-container .invoice i{
+    margin-right: 10px;
+
+}
+.container .right-container{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.container .right-container .header {
+
+border-top: 1px solid #f4b41a;
+border-bottom: 1px solid #f4b41a;
+width: 100%;
+text-align: center;
+color: #143d59;
+}
+.container .right-container .center-dash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+}
+.container .right-container .center-dash{
+    font-size: 40px;
+    font-weight: 400;
+    color: #f4b41a;
+}
